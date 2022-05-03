@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" aria-expanded="false">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbar-options"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand" href="#">Portfolio</a>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navbar-options">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#about">About</a></li>
+            <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      class="container-fluid first-viewport text-center content-section"
+      id="profile"
+    >
+      <div class="container-fluid">
+        <img
+          src="./me.jpg"
+          alt="Profile"
+          class="img-circle img-responsive profile-picture"
+        />
+        <div class="overlay"></div>
+
+        <div class="profile-details">
+          <div class="display-name">
+            <h1>Ankur kharwar</h1>
+
+            <h5>Web Developer | Front-End Web Developer</h5>
+            <h4>Pratapgarh, UP</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-me container content-section" id="about">
+      <div class="heading text-center">
+        <h1>About Me</h1>
+
+        <div class="row about-description-section">
+          <section class="col-xs12 col-md-4 container">
+            <h4 class="section-heading">Who I am</h4>
+            <p class="text-left">
+              I am an Web developer who cares for good UI. I'm currently
+              exploring the realm of Web and mobile development. I was
+              introduced to C/C++ in 21<sup>st</sup> grade and I've been a fan
+              of algorithms and programming ever since. I'm a team player and a
+              self starter. I have a keen eye for designing and wire framing and
+              I prefer having an entrepreneurial approach towards my work. When
+              not coding, I can either be found exploring places in the blocked
+              arteries of Mumbai or at some corner of my home, scribbling poetry
+              in illegible handwriting.
+            </p>
+          </section>
+
+          <section class="col-xs12 col-md-4 list-section container">
+            <h4 class="section-heading">Languages that I code in/work with</h4>
+            <ul class="list-group text-left">
+              <li class="list-group-item col-xs-12">Java Script</li>
+              <li class="list-group-item col-xs-12">
+                CSS3 (For Front-End Developer)
+              </li>
+              <li class="list-group-item col-xs-12">C/C++</li>
+              <li class="list-group-item col-xs-12">HTML5</li>
+              <li class="list-group-item col-xs-12">Basic React JS</li>
+              <li class="list-group-item col-xs-12">Basic jQuery</li>
+              <li class="list-group-item col-xs-12">Basic SCSS</li>
+              <li class="list-group-item col-xs-12">BootStrap</li>
+            </ul>
+          </section>
+
+          <section
+            class="col-xs12 col-md-4 list-section experience-section container"
+          >
+            <h4 class="section-heading">Experience</h4>
+
+            <ul class="list-group">
+              <li class="list-group-item text-left col-xs-12">
+                <div>The Entrepreneurship Network</div>
+                <small class="position-in-company"
+                  >C/C++ Developer Interns</small
+                >
+
+                <div>
+                  <small class="position-in-company">Oct'21-Jan'22</small>
+                </div>
+              </li>
+
+              <li class="list-group-item text-left col-xs-12">
+                <div>Cureya</div>
+                <small class="position-in-company">Web Developer Interns</small>
+
+                <div>
+                  <small class="position-in-company">Apr'22-July'22</small>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div
+      class="container-fluid portfolio-container-holder content-section"
+      id="portfolio"
+    >
+      <div class="portfolio-container container">
+        <h1 class="text-center">My Portfolio</h1>
+
+        <div class="row">
+          <div class="col-md-4 col-xs-12 col-sm-6 portfolio-card-holder">
+            <div class="portfolio-card">
+              <img
+                src="https://res.cloudinary.com/pinaki93/image/upload/v1476726463/organic-1280537_960_720_lgyd2v.jpg"
+                alt="Portfolio"
+                class="img-responsive portfolio-img"
+              />
+
+              <div class="portfolio-img-desc">
+                <p>Lorem ipsum dolor sit amet</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12 col-sm-6 portfolio-card-holder">
+            <div class="portfolio-card">
+              <img
+                src="https://res.cloudinary.com/pinaki93/image/upload/v1476726463/organic-1280537_960_720_lgyd2v.jpg"
+                alt="Portfolio"
+                class="img-responsive portfolio-img"
+              />
+
+              <div class="portfolio-img-desc">
+                <p>Lorem ipsum dolor sit amet</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12 col-sm-6 portfolio-card-holder">
+            <div class="portfolio-card">
+              <img
+                src="https://res.cloudinary.com/pinaki93/image/upload/v1476726463/organic-1280537_960_720_lgyd2v.jpg"
+                alt="Portfolio"
+                class="img-responsive portfolio-img"
+              />
+
+              <div class="portfolio-img-desc">
+                <p>Lorem ipsum dolor sit amet</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12 col-sm-6 portfolio-card-holder">
+            <div class="portfolio-card">
+              <img
+                src="https://res.cloudinary.com/pinaki93/image/upload/v1476726463/organic-1280537_960_720_lgyd2v.jpg"
+                alt="Portfolio"
+                class="img-responsive portfolio-img"
+              />
+
+              <div class="portfolio-img-desc">
+                <p>Lorem ipsum dolor sit amet</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12 col-sm-6 portfolio-card-holder">
+            <div class="portfolio-card">
+              <img
+                src="https://res.cloudinary.com/pinaki93/image/upload/v1476726463/organic-1280537_960_720_lgyd2v.jpg"
+                alt="Portfolio"
+                class="img-responsive portfolio-img"
+              />
+
+              <div class="portfolio-img-desc">
+                <p>Lorem ipsum dolor sit amet</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12 col-sm-6 portfolio-card-holder">
+            <div class="portfolio-card">
+              <img
+                src="https://res.cloudinary.com/pinaki93/image/upload/v1476726463/organic-1280537_960_720_lgyd2v.jpg"
+                alt="Portfolio"
+                class="img-responsive portfolio-img"
+              />
+
+              <div class="portfolio-img-desc">
+                <p>Lorem ipsum dolor sit amet</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div
+      class="container-fluid contact-me-container content-section"
+      id="contact"
+    >
+      <div class="container">
+        <h1 class="text-center">Contact Me</h1>
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-addon">
+                  <i class="glyphicon glyphicon-user"></i>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Name"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-addon">@</div>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="email"
+                  placeholder="Email ID"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-addon">
+                  <i class="glyphicon glyphicon-phone"></i>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="phone"
+                  placeholder="Phone Number"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6">
+            <textarea
+              class="form-control"
+              rows="5"
+              placeholder="Message"
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <button class="btn btn-default submit-button btn-lg btn-primary">
+            <i class="fa fa-paper-plane"></i> Submit
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container footer-container">
+        <div class="row footer-row">
+          <div class="col-xs-12 col-md-6 text-center">
+            <h4 class="text-center">Reach out to me</h4>
+
+            <address>
+              <strong><i class="fa fa-map-marker"></i> Pura</strong><br />
+              Pura, Dhakwa, Chauraha Pratapgarh<br />
+              Pin Code: 230124<br /><br />
+              <a href="tel:+91 6306664795"
+                ><i class="fa fa-phone"></i> +91 6306664795</a
+              >
+            </address>
+          </div>
+
+          <div class="col-xs-12 col-md-6 social-section">
+            <div class="text-center">
+              <h4 class="text-center">About this page</h4>
+              <p>
+                Coded with <i class="fa fa-heart heart"></i> by Ankur kharwar
+              </p>
+
+              <div class="text-center social-buttons">
+                <a
+                  href="https://github.com/theankur933"
+                  target="_blank"
+                  class="btn btn-default btn-lg social-button link-github"
+                >
+                  <i class="fa fa-github"> </i>
+                </a>
+
+                <a
+                  href="https://codepen.io/theankur933"
+                  target="_blank"
+                  class="btn btn-default btn-lg social-button link-codepen"
+                >
+                  <i class="fa fa-codepen"> </i>
+                </a>
+
+                <a
+                  href="https://twitter.com/AnkurKharwar6"
+                  target="_blank"
+                  class="btn btn-default btn-lg social-button link-twitter"
+                >
+                  <i class="fa fa-twitter"> </i>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/ankur-kharwar-522752200/"
+                  target="_blank"
+                  class="btn btn-default btn-lg social-button link-twitter"
+                >
+                  <i class="fa fa-linkedin"> </i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- partial -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

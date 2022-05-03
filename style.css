@@ -1,0 +1,201 @@
+html,
+head,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.content-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.social-buttons {
+  margin-top: 15px;
+}
+
+.first-viewport {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* https://pixabay.com/static/uploads/photo/2013/10/20/23/15/sunset-198875_960_720.jpg */
+  background: url("https://res.cloudinary.com/pinaki93/image/upload/v1476726426/office-1500461_960_720_mxgkk7.jpg")
+    no-repeat;
+  /* Set a background color that will be displayed
+  while the background image is loading */
+  background-color: #464646;
+  background-size: cover;
+  align-items: center;
+  background-attachment: fixed;
+}
+
+.profile-picture {
+  width: 144px;
+  height: 144px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.img-company {
+  width: 30px;
+  height: 30px;
+}
+
+.company-holder {
+  background-color: #888888;
+}
+
+.display-name {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+.about {
+  font-size: 24px;
+  color: #fff;
+}
+
+.position-in-company {
+  color: #888;
+}
+
+.section-heading {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+ul li {
+  transition: 0.5s linear;
+}
+
+h1,
+.section-heading:hover {
+  text-decoration: underline;
+}
+
+ul li:hover {
+  background-color: cadetblue;
+  color: white;
+}
+
+ul.list-section {
+  padding-bottom: 30px;
+}
+
+.portfolio-card {
+  box-shadow: 0px 2px 5px #888888;
+  background: #eee;
+  border-radius: 4px;
+}
+
+.portfolio-card:hover {
+  box-shadow: 0px 10px 10px #888888;
+  cursor: pointer;
+}
+
+.portfolio-container-holder {
+  background: #eee;
+  padding-bottom: 20px;
+}
+
+.portfolio-card-holder {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.portfolio-img {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+}
+
+.heart {
+  color: red;
+}
+
+.portfolio-img-desc {
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: #fff;
+  color: #000;
+  text-align: center;
+  padding: 5px;
+}
+
+.contact-me-container {
+  padding-bottom: 20px;
+}
+.submit-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #222222;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+/* .navbar{
+	margin-bottom: 20px; 
+} */
+
+address {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.social-button,
+.social-button:active,
+.social-button:hover {
+  background: #fff;
+  font-size: 30px;
+  border-radius: 50%;
+  margin: 5px;
+  border: 1px solid white;
+}
+
+.address-container {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.link-github:hover {
+  background-color: #67b84b;
+  color: #fff;
+}
+
+.link-twitter:hover {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+.link-codepen:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.link-fcc:hover {
+  background-color: #006400;
+  color: #fff;
+}
+
+.footer-row,
+.footer-container {
+  height: 100%;
+}
